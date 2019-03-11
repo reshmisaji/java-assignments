@@ -2,7 +2,6 @@ package com.step.assignments;
 
 public class SharedDigit {
     public static void main(String[] args) {
-        System.out.println(hasSharedDigit());
     }
 
     public static boolean hasSharedDigit(int num1,int num2){
