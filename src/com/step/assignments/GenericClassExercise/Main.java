@@ -1,5 +1,7 @@
 package com.step.assignments.GenericClassExercise;
 
+import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
         NumberRange numberRange = new NumberRange(1, 10);
@@ -11,5 +13,7 @@ public class Main {
         System.out.println(alphabetRange.getAll());
         System.out.println(alphabetRange.containsElement('d'));
         System.out.println(alphabetRange.containsElement('v'));
+
+
     }
 }
